@@ -1,4 +1,4 @@
-require.pry
+require 'pry'
 
 # Examples inspired by U. S. National Organic Standards
 
@@ -47,7 +47,7 @@ def matrix_lookup(matrix, row, column)
   # Given any matrix (array of arrays), a row index and a column index, 
   # Return the matrix's content at that row and and column
   
-  pry.binding
+  binding.pry
   return matrix[row][column]
   
 end

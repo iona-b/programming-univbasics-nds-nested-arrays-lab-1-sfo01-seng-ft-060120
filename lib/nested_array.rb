@@ -34,8 +34,8 @@ def sorted_matrix
   # uses the arrays of conventional and organic produce as before.
   # However, this time, sort each internal array alphabetically by the first character
   
-  NEW_CONVENTIONAL_PRODUCE = CONVENTIONAL_PRODUCE.sort!
-  NEW_ORGANIC_PRODUCE = ORGANIC_PRODUCE.sort!
+  NEW_CONVENTIONAL_PRODUCE = CONVENTIONAL_PRODUCE.sort
+  NEW_ORGANIC_PRODUCE = ORGANIC_PRODUCE.sort
   
   storage_room = [
     NEW_CONVENTIONAL_PRODUCE,

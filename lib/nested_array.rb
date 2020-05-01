@@ -48,7 +48,7 @@ def matrix_lookup(matrix, row, column)
   # Return the matrix's content at that row and and column
   
   binding.pry
-  return matrix[row][column]
+  return matrix[row][column + 2]
   
 end
 

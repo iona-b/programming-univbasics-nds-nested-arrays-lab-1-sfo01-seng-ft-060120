@@ -35,11 +35,11 @@ def sorted_matrix
   # However, this time, sort each internal array alphabetically by the first character
   
   NEW_CONVENTIONAL_PRODUCE = CONVENTIONAL_PRODUCE.sort!
-  NEW_CONVENTIONAL_PRODUCEORGANIC_PRODUCE.sort!
+  NEW_ORGANIC_PRODUCE = ORGANIC_PRODUCE.sort!
   
   storage_room = [
-    CONVENTIONAL_PRODUCE,
-    ORGANIC_PRODUCE
+    NEW_CONVENTIONAL_PRODUCE,
+    NEW_ORGANIC_PRODUCE
   ]
 end
 
